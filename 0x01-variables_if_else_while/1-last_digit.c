@@ -4,14 +4,14 @@
 
 /* more headers goes here */
 /**
-* main - if else statment
+* main - print the last digit of a number
 *
-* Return: Always 0 (Success)
+* Return: Always 0
 */
 
 int main(void)
 {
-int n,num;
+int n, num;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 num = n % 10;
