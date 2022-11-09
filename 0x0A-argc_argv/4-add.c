@@ -20,8 +20,6 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
-	else if (argc > 1)
-	{
 		for (i = 1; i < argc; i++)
 		{
 			if (!atoi(argv[i]))
@@ -35,6 +33,5 @@ int main(int argc, char *argv[])
 			}
 		}
 		printf("%d\n", sum);
-	}
-	return (0);
+		return (0);
 }
