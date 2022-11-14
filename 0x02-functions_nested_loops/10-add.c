@@ -10,13 +10,6 @@ int add(int x, int y)
 {
 	int sum;
 
-	if (x > 0 && y > 0)
-	{
-		sum = x + y;
-		return (sum);
-	}
-	else
-	{
-		return (0);
-	}
+	sum = x + y;
+	return (sum);
 }
