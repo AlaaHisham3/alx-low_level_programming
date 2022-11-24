@@ -9,21 +9,21 @@
 
 int main(void)
 {
-	int i, x, y, sum;
-	
+	long x, y, sum;
+	int i;
+
 	x = 0;
 	y = 1;
-	sum = x + y;
 	for (i = 1; i <= 50; i++)
 	{
-		printf("%d", sum);
+		sum = x + y;
+		printf("%ld", sum);
 		if (i != 50)
 		{
 			printf(", ");
-		}	
+		}
 		x = y;
 		y = sum;
-		sum = x + y;
 	}
 	printf("\n");
 	return (0);
