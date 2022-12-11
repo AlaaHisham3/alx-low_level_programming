@@ -5,6 +5,7 @@
  * fizz_buzz - check the code
  * Return: Always 0.
  */
+void fizz_buzz(void);
 void fizz_buzz(void)
 {
 	int i;
@@ -29,4 +30,17 @@ void fizz_buzz(void)
 		}
 		printf(" ");
 	}
+	printf("\n");
 }
+
+/**
+ * main - main code
+ * return: always 0
+ */
+
+int main(void)
+{
+	fizz_buzz();
+	return (0);
+}
+
