@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
- * fizz_buzz - check the code
+ * main - check the code
  * Return: Always 0.
  */
-void fizz_buzz(void);
-void fizz_buzz(void)
+int main(void)
 {
 	int i;
 
@@ -30,16 +29,5 @@ void fizz_buzz(void)
 		}
 	}
 	printf("\n");
-}
-
-/**
- * main - to check the code
- * Return: always 0
- */
-
-int main(void)
-{
-	fizz_buzz();
 	return (0);
 }
-
