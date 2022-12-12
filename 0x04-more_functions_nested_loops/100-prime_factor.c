@@ -11,7 +11,7 @@ int main(void)
 	long div = 2;
 	long f = 0;
 
-	while ( num != 1)
+	while (num != 1)
 	{
 		if (num % div == 0)
 		{
